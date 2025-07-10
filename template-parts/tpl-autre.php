@@ -55,7 +55,7 @@ endif;
 <?php if(get_field('image_cert') ): ?>
                     
 <div class="container">
-    <img src="<?php echo get_field('image_cert')['url']; ?>" class="img-responsive" alt="">
+    <img src="<?php echo get_field('image_cert')['url']; ?>" class="img-responsive" alt="certification">
 </div>
     <?php endif; ?>
 
